@@ -1,0 +1,754 @@
+@media (max-width: 330px) {
+    .backgroung-image {
+        margin-top: 0px;
+    }
+
+    .tp-book-button {
+        font-size: 0.9rem;
+    }
+
+    .dashboard-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-left {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .header-actions {
+        gap: 0.25rem;
+    }
+
+    .dashboard-header h1 {
+        font-size: 0.9rem;
+    }
+
+    .dashboard-header p {
+        font-size: 0.7rem;
+    }
+
+    .header-actions button {
+        padding: 0.35rem !important;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .workout-tag-container {
+        gap: 6px !important;
+    }
+
+    .control-button.start,
+    .control-button.save ,
+    .control-button.reset {
+        font-size: 15px !important;
+    }
+
+    .workout-exercise-content {
+        gap: 10px;
+    }
+
+    .workout-tag-done {
+        font-size: 12px !important;
+    }
+
+    .workout-stat-label {
+        font-size: 13px !important;
+    }
+
+    .workout-stat-value {
+        font-size: 15px !important;
+    }
+
+    .quick-actions .actions-grid {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .user-stats {
+        flex-direction: column;
+    }
+
+    .dashboard-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    .header-left {
+        width: 100%;
+    }
+
+    .hero-overlay h1 {
+        font-size: 40px;
+    }
+
+    .hero-overlay p {
+        font-size: 14px;
+    }
+
+    .story p,
+    .mission p {
+        font-size: .8rem;
+    }
+
+    .nutrition-grid {
+        grid-template-columns: repeat(2, minmax(50px, 1fr)) !important;
+    }
+
+    .dashboard-quote {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    .trainer-initials {
+        width: 45px;
+        height: 45px;
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+
+    .trainer-name {
+        font-size: 1rem;
+    }
+
+    .section-title,
+    .coaching-title {
+        font-size: 1.3rem;
+    }
+
+    .section-subtitle,
+    .coaching-description {
+        font-size: 1rem;
+    }
+
+    .register-card {
+        padding: 1.5rem;
+        margin: 0.5rem;
+    }
+
+    .register-title {
+        font-size: 1.5rem;
+    }
+
+    .fixed-form-input,
+    .fixed-form-select {
+        font-size: 0.9rem;
+    }
+
+    .login-card {
+        padding: 2rem 1.5rem;
+        margin: 0.5rem;
+    }
+
+    .login-title {
+        font-size: 1.5rem;
+    }
+
+    .login-form-input {
+        font-size: 0.9rem;
+        padding: 0.875rem 1rem 0.875rem 2.75rem;
+    }
+
+    .login-input-icon {
+        left: 0.875rem;
+    }
+
+    .login-password-toggle {
+        right: 0.875rem;
+    }
+
+    .fn-setting-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    .fn-toggle {
+        margin-left: 0;
+        align-self: flex-end;
+    }
+
+    .fn-setting-details {
+        margin-left: 0;
+        border-left: none;
+        border-top: 2px solid var(--input-bg);
+        padding-top: 1rem;
+    }
+
+    .as-setting-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    .as-setting-details {
+        margin-left: 0;
+        border-left: none;
+        border-top: 2px solid var(--input-bg);
+        padding-top: 1rem;
+    }
+
+    .as-toggle-setting {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .as-toggle {
+        margin-left: 0;
+        align-self: flex-end;
+    }
+
+    .stat-value {
+        font-size: 20px !important;
+    }
+
+    .number {
+        font-size: 2rem;
+    }
+
+    .detail {
+        font-size: .9rem;
+    }
+
+    .nutrition-value {
+        font-size: 1rem;
+    }
+
+    .dashboard-header {
+        padding: 0.75rem 1rem;
+    }
+
+    .dashboard-header h1 {
+        font-size: 1rem;
+    }
+
+    .dashboard-header p {
+        font-size: 0.75rem;
+    }
+
+    .logo {
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+    }
+
+    .logo-name {
+        font-size: 1rem;
+    }
+
+    .header-actions {
+        justify-content: center !important;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .tp-trainers-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .tp-stats-section {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+    }
+
+    .tp-stat-card span {
+        font-size: 1.6rem;
+    }
+
+    .tp-stat-card div {
+        font-size: .8rem;
+    }
+
+    .footer-brand {
+        font-size: 1.5rem;
+    }
+
+    .footer-text,
+    .footer-copy {
+        font-size: 0.85rem;
+    }
+
+    .footer-links a {
+        font-size: 0.9rem;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .footer-section {
+        padding: 12px 8px;
+        text-align: center;
+    }
+
+    .fs-profile-container {
+        padding: 1rem;
+    }
+
+    .fs-profile-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .fs-profile-actions {
+        flex-direction: column;
+    }
+
+    .fs-profile-goal-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+    .dashboard-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .welcome-card {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .dashboard-grid {
+        grid-template-columns: 1fr !important;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .welcome-card {
+        grid-column: span 1 !important;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .user-stats {
+        gap: 1rem;
+    }
+
+
+    .dashboard-header {
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    .header-left {
+        width: 100%;
+    }
+
+    .header-actions {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .header-actions button {
+        padding: 0.4rem;
+        margin-left: 0.25rem;
+    }
+
+    .coaching-title {
+        font-size: 2rem;
+    }
+
+    .highlight-title {
+        font-size: 1.6rem;
+    }
+
+    .highlight-description {
+        font-size: 0.9rem;
+    }
+
+    .coaching-description {
+        font-size: 1rem;
+    }
+
+    .read-more-btn {
+        font-size: .7rem;
+        padding: 6px;
+    }
+
+    .author-name {
+        font-size: .9rem;
+    }
+
+    .author-role {
+        font-size: .7rem;
+    }
+
+    .dashboard-quote {
+        font-size: 1.5rem;
+        padding: 1.2rem;
+    }
+
+    .testimonial-nav-btn {
+        display: none;
+    }
+
+    .online-coaching-section {
+        min-height: 50vh;
+        padding: 40px 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .online-coaching-section .container {
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    .trainer-card {
+        padding: 16px 8px;
+        font-size: 0.95rem;
+        margin-bottom: 20px;
+    }
+
+    .trainer-initials {
+        width: 60px;
+        height: 60px;
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+    }
+
+    .trainer-name {
+        font-size: 1.1rem;
+    }
+
+    .trainer-role {
+        font-size: 0.95rem;
+    }
+
+    .trainer-exp {
+        font-size: 0.85rem;
+    }
+
+    .trainer-tag {
+        font-size: 0.75rem;
+        padding: 3px 7px;
+    }
+
+    .package-card {
+        padding: 24px 8px;
+        font-size: 0.95rem;
+        margin-bottom: 20px;
+    }
+
+    .package-name {
+        font-size: 1.1rem;
+    }
+
+    .package-price {
+        font-size: 1.7rem;
+    }
+
+    .package-session {
+        font-size: 0.85rem;
+        margin-bottom: 12px;
+    }
+
+    .package-features {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+
+    .package-btn {
+        padding: 10px 12px;
+        font-size: 1rem;
+    }
+
+    .meals-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .date-selector {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .testimonial-nav-btn {
+        display: none;
+    }
+
+    .tp-packages-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tp-package-card.popular {
+        transform: none;
+    }
+
+    .tp-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .tp-price {
+        font-size: 2.8rem;
+    }
+
+    .tp-benefits-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .tp-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .tp-benefit-card {
+        padding: 30px 25px;
+    }
+
+    .tp-cta-section {
+        padding: 30px 25px;
+    }
+
+    .wc-header h1.wc-title {
+        font-size: 2rem;
+    }
+
+    .wc-benefits-grid {
+        gap: 25px;
+    }
+
+    .whychoose-container {
+        padding: 4rem 1rem;
+    }
+
+    .feature-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .register-container {
+        padding: 1rem;
+    }
+
+    .register-card {
+        padding: 2rem;
+        border-radius: 20px;
+    }
+
+    .register-title {
+        font-size: 1.75rem;
+    }
+
+    .register-gender-group {
+        flex-direction: column;
+    }
+
+    .register-gender-option {
+        min-width: unset;
+    }
+
+    .login-container {
+        padding: 1rem;
+    }
+
+    .login-card {
+        padding: 2.5rem 2rem;
+        border-radius: 20px;
+        max-width: 100%;
+    }
+
+    .login-title {
+        font-size: 1.75rem;
+    }
+
+    .login-social-buttons {
+        flex-direction: column;
+    }
+
+    .login-social-button {
+        text-align: center;
+    }
+
+    .workout-content {
+        padding: 16px;
+    }
+
+    .workout-header {
+        padding: 20px;
+    }
+
+    .workout-title-section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .workout-icon {
+        font-size: 24px;
+    }
+
+    .workout-stats-grid {
+        gap: 8px !important;
+    }
+
+    .workout-exercise-card {
+        padding: 16px;
+    }
+
+    .workout-navigation {
+        padding: 12px 16px;
+    }
+
+    .workout-nav-btn {
+        padding: 10px 12px;
+        font-size: 13px;
+    }
+
+    .fn-notification-settings {
+        margin: 1rem;
+        border-radius: 12px;
+    }
+
+    .fn-settings-header {
+        padding: 1.5rem;
+    }
+
+    .fn-settings-title {
+        font-size: 1.5rem;
+    }
+
+    .fn-setting-header {
+        padding: 1rem 1.5rem;
+    }
+
+    .fn-setting-details {
+        padding: 0 1.5rem 1rem 1.5rem;
+        margin-left: 20px;
+    }
+
+    .fn-settings-footer {
+        padding: 1rem 1.5rem;
+    }
+
+    .fn-day-selector,
+    .fn-milestone-selector {
+        gap: 0.25rem;
+    }
+
+    .fn-day-btn,
+    .fn-milestone-btn {
+        padding: 0.375rem 0.75rem;
+        font-size: 0.75rem;
+        min-width: 45px;
+    }
+
+    .fn-time-range {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .fn-alert-type-item {
+        padding: 0.75rem;
+    }
+
+    .as-account-settings {
+        margin: 1rem;
+        border-radius: 12px;
+    }
+
+    .as-settings-header {
+        padding: 1.5rem;
+    }
+
+    .as-settings-title {
+        font-size: 1.5rem;
+    }
+
+    .as-setting-header {
+        padding: 1rem 1.5rem;
+    }
+
+    .as-setting-details {
+        padding: 0 1.5rem 1rem 1.5rem;
+        margin-left: 20px;
+    }
+
+    .as-settings-footer {
+        padding: 1rem 1.5rem;
+    }
+
+    .as-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .as-profile-picture-section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .as-account-item,
+    .as-data-action-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .as-payment-info {
+        flex-wrap: wrap;
+    }
+
+    .as-plan-actions {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 992px) {
+    .tp-benefits-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .stats {
+        justify-content: center;
+    }
+
+    .mission {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .dashboard-header {
+        padding: 1rem;
+    }
+
+    .dashboard-header h1 {
+        font-size: 1.25rem;
+    }
+
+    .dashboard-header p {
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        width: 42px;
+        height: 42px;
+    }
+
+    .logo-name {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .mission {
+        max-width: 450px;
+    }
+}
