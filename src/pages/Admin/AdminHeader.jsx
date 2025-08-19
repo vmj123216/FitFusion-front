@@ -7,7 +7,7 @@ import { Logout } from '../../services/ApiService';
 function AdminHeader() {
     const [isProfileOpen, setIsProfileOpen] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const [notifications] = useState(3); // Mock notification count
+    const [notifications] = useState(3);
     const navigate = useNavigate();
 
     const handleLogout = async () => {

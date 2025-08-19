@@ -177,6 +177,22 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .admin-nav-desktop {
+        gap: 0.5rem;
+        max-width: 400px;
+    }
+
+    .admin-search-bar input {
+        width: 140px;
+    }
+
+    .admin-profile-info {
+        display: none;
+        /* hide name/role, keep only avatar */
+    }
+}
+
 /* ===== TABLET LARGE (969px - 1199px) ===== */
 @media (max-width: 1199px) and (min-width: 969px) {
     .admin-dashboard {
